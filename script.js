@@ -10,16 +10,15 @@ const startContainer = document.querySelector(".start");
 const winnerOverlay = document.querySelector(".winner-overlay");
 
 const imgss = [
-    { src: "./img/1.jpeg" },
-    { src: "./img/2.jpg" },
-    { src: "./img/3.jpg" },
-    { src: "./img/4.webp" },
-    { src: "./img/5.jpg" },
-    { src: "./img/6.jpg" },
-    { src: "./img/7.jpeg" },
-    { src: "./img/8.jpg" }
+    { src: "./1.jpeg" },
+    { src: "./2.jpg" },
+    { src: "./3.jpg" },
+    { src: "./4.webp" },
+    { src: "./5.jpg" },
+    { src: "./6.jpg" },
+    { src: "./7.jpeg" },
+    { src: "./8.jpg" }
 ];
-
 let carss = [];
 
 function drawLives() {
